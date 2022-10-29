@@ -11,8 +11,8 @@ const Footer = () => {
           <div className="container">
 
             <div className="row">
-                <img src={slackImg} className="r1" />
-                <img src={Img2} className="r2" />
+               <img src={slackImg} className="r1" />
+               <img src={Img2} className="r2" />
               </div>  
             
             <hr />
