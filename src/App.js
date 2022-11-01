@@ -52,15 +52,15 @@ function App() {
 		<div className="p-m-4">
 			<div className="content-wrap">
 				<div className="p-d-flex p-jc-center p-ai-center p-flex-column">
-					<Avatar id="profile_img" image={data.image} size="xlarge" shape="circle" />
+					<Avatar id="profile__img" image={data.image} size="xlarge" shape="circle" />
 					<h1 className="p-m-2">{data.name}</h1>
 				</div>
 
 				<div className="p-d-flex p-jc-center p-ai-center">
 					<div className="button">
-						{data.links.map(({ link, name }) => (
-							<a className="p-m-2 p-p-3" href={link}>
-								{name}
+						{data.links.map(({ link, name, id}) => (
+							<a id={id} className="p-m-2 p-p-3" href={link}>
+							{name}
 							</a>
 						))}
 					</div>
