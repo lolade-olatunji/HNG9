@@ -15,25 +15,25 @@ const contact = () => {
 				<div className="form-section">
 					<div className="form-inline">
 						<div className="form-control first">
-							<label className="form-label" for="first-name">
+							<label className="form-label" for="first_name">
 								First Name
 							</label>
 							<input
 								className="form-input"
 								type="text"
-								id="first-name"
+								id="first_name"
 								placeholder="Enter your first name"
 							/>
 						</div>
 
 						<div className="form-control last">
-							<label className="form-label" for="Last-Name">
+							<label className="form-label" for="last_name">
 								Last Name
 							</label>
 							<input
 								className="form-input"
 								type="text"
-								id="Last-Name"
+								id="last_name"
 								placeholder="Enter your last name"
 							/>
 						</div>
@@ -47,7 +47,7 @@ const contact = () => {
 					</div>
 
 					<div className="form-control">
-						<label className="form-label" for="Meesage">
+						<label className="form-label" for="Meesage" id='message'>
 							Message
 						</label>
 						<textarea
