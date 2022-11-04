@@ -167,5 +167,11 @@ textarea{
          font-size: 10px;
          font-weight: 500;
      }
+     .r1{
+        display: none;
+     }
+     .r2{
+        display: none;
+     }
 
   }
