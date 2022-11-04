@@ -94,6 +94,7 @@ textarea{
    font-size: 12px; 
    font-weight: 400;
    color: #475467;
+   text-align: start;
 }
 .submit{
     margin-top: 40px;
