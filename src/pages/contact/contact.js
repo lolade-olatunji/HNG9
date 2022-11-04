@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './contact.css';
 import Footer from '../../components/Footer';
 
 const contact = () => {
+  const [name, setName] = useState("Ololade Olatunji");
 	return (
 		<div id="contact-page">
 			<div className="container">
@@ -59,7 +60,7 @@ const contact = () => {
 					<div className="checkbox">
 						<input type="checkbox" />
 						<span className="span">
-							{`You agree to providing your data to {name} who may contact you.`}
+							{`You agree to providing your data to ${name} who may contact you.`}
 						</span>
 					</div>
 					<button id="btn__submit" className="submit">
