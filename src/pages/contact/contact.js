@@ -12,7 +12,8 @@ const contact = () => {
 					<p className="sub">Hi there, contact me to ask me about anything you have in mind.</p>
 				</div>
 
-				<div className="form-section">
+				<form className="form-section">
+
 					<div className="form-inline">
 						<div className="form-control first">
 							<label className="form-label" for="first_name">
@@ -77,7 +78,7 @@ const contact = () => {
 					<button type="submit" id="btn__submit" className="submit">
 						Send message
 					</button>
-				</div>
+				</form>
 			</div>
 			<Footer />
 		</div>
