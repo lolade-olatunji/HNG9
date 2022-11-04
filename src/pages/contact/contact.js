@@ -3,7 +3,7 @@ import './contact.css';
 import Footer from '../../components/Footer';
 
 const contact = () => {
-  const [name, setName] = useState("Ololade Olatunji");
+	const [ name, setName ] = useState('Ololade Olatunji');
 	return (
 		<div id="contact-page">
 			<div className="container">
@@ -23,6 +23,7 @@ const contact = () => {
 								type="text"
 								id="first_name"
 								placeholder="Enter your first name"
+								required
 							/>
 						</div>
 
@@ -35,6 +36,7 @@ const contact = () => {
 								type="text"
 								id="last_name"
 								placeholder="Enter your last name"
+								required
 							/>
 						</div>
 					</div>
@@ -43,11 +45,17 @@ const contact = () => {
 						<label className="form-label" for="email">
 							Email
 						</label>
-						<input className="form-input" type="email" id="email" placeholder="yourname@email.com" />
+						<input
+							className="form-input"
+							type="email"
+							id="email"
+							placeholder="yourname@email.com"
+							required
+						/>
 					</div>
 
-					<div className="form-control">
-						<label className="form-label" for="Meesage" id='message'>
+				<div className="form-control">
+						<label className="form-label" for="Meesage" id="message">
 							Message
 						</label>
 						<textarea
@@ -56,6 +64,8 @@ const contact = () => {
 							placeholder="Send me a message and I'll reply you as soon as possible"
 						/>
 					</div>
+          
+
 
 					<div className="checkbox">
 						<input type="checkbox" />
@@ -63,7 +73,8 @@ const contact = () => {
 							{`You agree to providing your data to ${name} who may contact you.`}
 						</span>
 					</div>
-					<button id="btn__submit" className="submit">
+
+					<button type="submit" id="btn__submit" className="submit">
 						Send message
 					</button>
 				</div>

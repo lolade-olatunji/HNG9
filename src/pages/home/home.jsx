@@ -49,7 +49,7 @@ function Home() {
 			},
             {
 				name: 'Contact Me',
-				link: 'contact',
+				link: '/contact',
 				id: 'contact'
 			}
             
