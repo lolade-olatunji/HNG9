@@ -56,10 +56,11 @@ const contact = () => {
 					</div>
 
 				<div className="message">
-						<label className="message-label" for="Meesage" id="message">
+						<label className="message-label" for="Message">
 							Message
 						</label>
 						<textarea
+              id="message"
 							name="Message"
 							rows="6"
 							placeholder="Send me a message and I'll reply you as soon as possible"
